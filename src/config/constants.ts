@@ -18,21 +18,6 @@ export const DEFAULT_TIMER_CONFIG: TimerConfig = {
   },
 };
 
-export const DEFAULT_TIMER_FORM: TimerConfigForm = {
-  task: {
-    seconds: 0,
-    minutes: 0,
-  },
-  short: {
-    seconds: 0,
-    minutes: 0,
-  },
-  long: {
-    seconds: 0,
-    minutes: 0,
-  },
-};
-
 export const DEFAULT_STORAGE: TimerStorage = {
   todoList: [],
   timerConfig: DEFAULT_TIMER_CONFIG,
