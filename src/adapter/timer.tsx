@@ -3,7 +3,6 @@ import {
   Timer,
   TimerConfig,
   TimerConfigForm,
-  TimerNumbers,
 } from "../config/definitions";
 import {
   millisecondsToTimerText,
