@@ -1,4 +1,4 @@
-import { TimerConfig, TimerConfigForm, TimerStorage } from "./definitions";
+import { TimerConfig, TimerStorage } from "./definitions";
 
 export const DEFAULT_TIMER_CONFIG: TimerConfig = {
   task: {
