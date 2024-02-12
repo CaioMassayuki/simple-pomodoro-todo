@@ -23,7 +23,7 @@ function TodoList({ items }: { items: TodoItemType[] }) {
     }
   };
 
-  const handleCheck = (id: number) => {
+  const handleCheck = (id: string) => {
     const newTodoList = todoList.map((item) => {
       if (item.id === id) {
         return { ...item, checked: !item.checked };
@@ -33,7 +33,7 @@ function TodoList({ items }: { items: TodoItemType[] }) {
     setTodoList(newTodoList);
   };
 
-  const handleTodoItemDelete = (id: number) => {
+  const handleTodoItemDelete = (id: string) => {
     const newTodoList = todoList.filter((item) => item.id !== id);
     setTodoList(newTodoList);
   };

@@ -31,7 +31,7 @@ export type TimerConfig = {
 export type PomodoroStages = 'task' | 'short' | 'long'
 
 export type TodoItemType = {
-    id: number;
+    id: string;
     text: string;
     checked: boolean;
   };
