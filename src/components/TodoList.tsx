@@ -53,7 +53,7 @@ function TodoList({ items }: { items: TodoItemType[] }) {
           if (e.code === "Enter") addTodoItem();
         }}
       />
-      <ul className="flex flex-col w-full">
+      <ul className="flex flex-col w-full overflow-y-auto">
         {todoList.map((item, index) => (
           <TodoItem
             key={`todo-${index}-${item.text.slice(0, 3)}`}
